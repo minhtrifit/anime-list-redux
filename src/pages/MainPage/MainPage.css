@@ -1,0 +1,37 @@
+.list-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+}
+
+.anime-card {
+  width: 150px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 5px;
+  /* background-color: blue; */
+}
+
+.anime-card .nav-link {
+  text-decoration: none;
+}
+
+.anime-card:hover {
+  cursor: pointer;
+}
+
+.anime-card .poster {
+  width: 150px;
+  /* background-color: red; */
+}
+
+.anime-card .poster img {
+  width: 100%;
+}
+
+.anime-card .name {
+  color: #000;
+}

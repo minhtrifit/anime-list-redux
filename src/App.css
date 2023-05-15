@@ -1,0 +1,17 @@
+.app {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.app .title {
+  text-align: center;
+}
+
+.app .title a {
+  color: blue;
+  text-decoration: none;
+}
+
+.app .title:hover {
+  cursor: pointer;
+}
